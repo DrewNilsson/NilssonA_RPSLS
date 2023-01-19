@@ -72,7 +72,7 @@ function CreateHomeBtn() {
 
   let btnImage = document.createElement("img");
   btnImage.className = "selection-image";
-  btnImage.src = "../assets/quit.png";
+  btnImage.src = "./assets/quit.png";
   btnImage.alt = "Home";
   btnImage.addEventListener("click", function () {
     if (
@@ -104,7 +104,7 @@ function CreatePlayerBtns() {
 
   let selectionBtnImage1 = document.createElement("img");
   selectionBtnImage1.className = "selection-image";
-  selectionBtnImage1.src = "../assets/one.png";
+  selectionBtnImage1.src = "./assets/one.png";
   selectionBtnImage1.alt = "Singleplayer";
   selectionBtnImage1.addEventListener("click", function () {
     players = "singleplayer";
@@ -115,7 +115,7 @@ function CreatePlayerBtns() {
   });
   let selectionBtnImage2 = document.createElement("img");
   selectionBtnImage2.className = "selection-image";
-  selectionBtnImage2.src = "../assets/two.png";
+  selectionBtnImage2.src = "./assets/two.png";
   selectionBtnImage2.alt = "Singleplayer";
   selectionBtnImage2.addEventListener("click", function () {
     players = "multiplayer";
@@ -138,7 +138,7 @@ function CreateGamemodeBtns() {
 
   let selectionBtnImage1 = document.createElement("img");
   selectionBtnImage1.className = "selection-image";
-  selectionBtnImage1.src = "../assets/one.png";
+  selectionBtnImage1.src = "./assets/one.png";
   selectionBtnImage1.alt = "One Round";
   selectionBtnImage1.addEventListener("click", function () {
     gamemode = "1";
@@ -151,7 +151,7 @@ function CreateGamemodeBtns() {
   });
   let selectionBtnImage2 = document.createElement("img");
   selectionBtnImage2.className = "selection-image";
-  selectionBtnImage2.src = "../assets/five.png";
+  selectionBtnImage2.src = "./assets/five.png";
   selectionBtnImage2.alt = "Best of Five";
   selectionBtnImage2.addEventListener("click", function () {
     gamemode = "3";
@@ -164,7 +164,7 @@ function CreateGamemodeBtns() {
   });
   let selectionBtnImage3 = document.createElement("img");
   selectionBtnImage3.className = "selection-image";
-  selectionBtnImage3.src = "../assets/seven.png";
+  selectionBtnImage3.src = "./assets/seven.png";
   selectionBtnImage3.alt = "Best of Seven";
   selectionBtnImage3.addEventListener("click", function () {
     gamemode = "4";
@@ -190,7 +190,7 @@ function CreateSelectionBtns() {
 
   let selectionBtnImage1 = document.createElement("img");
   selectionBtnImage1.className = "selection-image";
-  selectionBtnImage1.src = "../assets/rock.png";
+  selectionBtnImage1.src = "./assets/rock.png";
   selectionBtnImage1.alt = "Rock";
   selectionBtnImage1.addEventListener("click", function () {
     if (player1Choice == "") {
@@ -208,7 +208,7 @@ function CreateSelectionBtns() {
   });
   let selectionBtnImage2 = document.createElement("img");
   selectionBtnImage2.className = "selection-image";
-  selectionBtnImage2.src = "../assets/paper.png";
+  selectionBtnImage2.src = "./assets/paper.png";
   selectionBtnImage2.alt = "Paper";
   selectionBtnImage2.addEventListener("click", function () {
     if (player1Choice == "") {
@@ -226,7 +226,7 @@ function CreateSelectionBtns() {
   });
   let selectionBtnImage3 = document.createElement("img");
   selectionBtnImage3.className = "selection-image";
-  selectionBtnImage3.src = "../assets/scissors.png";
+  selectionBtnImage3.src = "./assets/scissors.png";
   selectionBtnImage3.alt = "Scissors";
   selectionBtnImage3.addEventListener("click", function () {
     if (player1Choice == "") {
@@ -244,7 +244,7 @@ function CreateSelectionBtns() {
   });
   let selectionBtnImage4 = document.createElement("img");
   selectionBtnImage4.className = "selection-image";
-  selectionBtnImage4.src = "../assets/lizard.png";
+  selectionBtnImage4.src = "./assets/lizard.png";
   selectionBtnImage4.alt = "Lizard";
   selectionBtnImage4.addEventListener("click", function () {
     if (player1Choice == "") {
@@ -262,7 +262,7 @@ function CreateSelectionBtns() {
   });
   let selectionBtnImage5 = document.createElement("img");
   selectionBtnImage5.className = "selection-image";
-  selectionBtnImage5.src = "../assets/spock.png";
+  selectionBtnImage5.src = "./assets/spock.png";
   selectionBtnImage5.alt = "Spock";
   selectionBtnImage5.addEventListener("click", function () {
     if (player1Choice == "") {

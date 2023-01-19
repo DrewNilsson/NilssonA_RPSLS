@@ -91,46 +91,46 @@ function ResetPlayerScore() {
 function UpdatePlayerScoreLogo() {
   switch (player1Score) {
     case 0:
-      scoreOneImageSrc = "../assets/zero.png";
+      scoreOneImageSrc = "./assets/zero.png";
       scoreOneImageAlt = "Zero";
       break;
     case 1:
-      scoreOneImageSrc = "../assets/one.png";
+      scoreOneImageSrc = "./assets/one.png";
       scoreOneImageAlt = "One";
       break;
     case 2:
-      scoreOneImageSrc = "../assets/two.png";
+      scoreOneImageSrc = "./assets/two.png";
       scoreOneImageAlt = "Two";
       break;
     case 3:
-      scoreOneImageSrc = "../assets/three.png";
+      scoreOneImageSrc = "./assets/three.png";
       scoreOneImageAlt = "Three";
       break;
     case 4:
-      scoreOneImageSrc = "../assets/four.png";
+      scoreOneImageSrc = "./assets/four.png";
       scoreOneImageAlt = "Four";
       break;
   }
 
   switch (player2Score) {
     case 0:
-      scoreTwoImageSrc = "../assets/zero.png";
+      scoreTwoImageSrc = "./assets/zero.png";
       scoreTwoImageAlt = "Zero";
       break;
     case 1:
-      scoreTwoImageSrc = "../assets/one.png";
+      scoreTwoImageSrc = "./assets/one.png";
       scoreTwoImageAlt = "One";
       break;
     case 2:
-      scoreTwoImageSrc = "../assets/two.png";
+      scoreTwoImageSrc = "./assets/two.png";
       scoreTwoImageAlt = "Two";
       break;
     case 3:
-      scoreTwoImageSrc = "../assets/three.png";
+      scoreTwoImageSrc = "./assets/three.png";
       scoreTwoImageAlt = "Three";
       break;
     case 4:
-      scoreTwoImageSrc = "../assets/four.png";
+      scoreTwoImageSrc = "./assets/four.png";
       scoreTwoImageAlt = "Four";
       break;
   }
